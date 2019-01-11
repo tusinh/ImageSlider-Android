@@ -51,7 +51,8 @@ public class SlidingImage_Adapter extends PagerAdapter {
        //     byte[] imageBytes = Base64.decode(item.image_medium, Base64.DEFAULT);
         //    Bitmap decodedImage = BitmapFactory.decodeByteArray(imageBytes, 0, imageBytes.length);
          //   imageView.setImageBitmap(decodedImage);
-      //  }
+       //  }
+        //
         //
         
         imageView.setImageResource(imageModelArrayList.get(position).getImage_drawable());
